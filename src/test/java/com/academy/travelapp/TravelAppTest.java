@@ -40,4 +40,11 @@ public class TravelAppTest {
 	        assertTrue(true);
 		}
     }
+    @Test 
+    public void writeC() {
+    	new Users("Will", 24, "Rochdale");
+    	assertTrue(true);
+    }
+    
+    
 }
